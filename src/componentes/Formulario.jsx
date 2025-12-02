@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { calcularTotal} from '../helpers';
+import Resultado from './Resultado';
 
 const Formulario = ({cantidad, setCantidad, plazo, setPlazo, setTotal}) => {
 
@@ -41,7 +42,7 @@ const Formulario = ({cantidad, setCantidad, plazo, setPlazo, setTotal}) => {
                     </div>
                 </div>
                 <div className="btnSubmint">
-                    <button type="submint" value="Calcular">Calcular</button>
+                    <button type="submint" value="Calcular" onClick={Resultado}>Calcular</button>
                 </div>
             </form>
             {(error) ? <p className='error'>Todos los campos son obligatorios</p> : ""}
