@@ -9,7 +9,7 @@ body {
 /* Cotizador de Préstamos */
 .header {
   padding: 0 0;
-  width: 36%;
+  width: 66%;
   margin: 0 auto;
   border-radius: 10px;
 }
@@ -59,7 +59,7 @@ form .column {
 /* cantidad de prestamo */
 .column div input{
   display: block;
-  width: 100%;
+  width: 95%;
   font-size: inherit;
   padding: 10px;
   outline: none;
@@ -92,7 +92,7 @@ form .column {
 .mensaje {
   background-color: #ff9800;
   padding: 0.5% 0;
-  width: 36%;
+  width: 66%;
   margin: 0 auto;
   border-radius: 16px 16px 0 0;
   border: 2px solid #fff;
