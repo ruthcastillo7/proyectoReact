@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <Header titulo="Cotizador de Prestamos" />
+      <Header titulo="Cotizador de Préstamos" />
       <div className="container">
         <Formulario 
         cantidad={cantidad} 

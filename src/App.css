@@ -4,15 +4,17 @@ html {
 body {
   height: 100%;
   font-family: 'Lato', sans-serif;
+  background: linear-gradient(black, gray);;
 }
+/* Cotizador de Préstamos */
 .header {
-  background-color: #454546;
-  padding: 1% 0;
-  width: 70%;
+  padding: 0 0;
+  width: 36%;
   margin: 0 auto;
-  border-radius: 0 0 16px 16px;
+  border-radius: 10px;
 }
 
+/* Formulario */
 h1 {
   color: white;
   text-align: center;
@@ -22,6 +24,7 @@ h1 {
   background-color: #ffc340;
   padding-bottom: 2%;
   border-radius: 1rem;
+  border: 2px solid #fff;
   margin: 2% auto;
   width: 30%;
   padding: 3%;
@@ -34,12 +37,15 @@ form .column {
 .column div {
   width: 50%;
 }
+/* color de letras descriptoras del formulario */
 .column div label{
   display: block;
   width: 100%;
   margin-bottom: 6px;
-  color: #605e5e;
+  color: #000000;
+  font-weight: 600;
 }
+/* plazo para pagar */
 .column div select{
   display: block;
   width: 100%;
@@ -48,8 +54,9 @@ form .column {
   outline: none;
   border: 0px solid;
   border-radius: 6px;
-  color: gray;
+  color: rgb(34, 34, 34);
 }
+/* cantidad de prestamo */
 .column div input{
   display: block;
   width: 100%;
@@ -58,9 +65,10 @@ form .column {
   outline: none;
   border: 0px solid;
   border-radius: 6px;
-  color: gray;
+  color: rgb(34, 34, 34);
 }
 
+/* calcular */
 .btnSubmint button[type="submint"]{
   display: block;
   width: 100%;
@@ -71,7 +79,7 @@ form .column {
   border: 2px solid #fff;
   border-radius: 6px;
   margin-top: 20px;
-  color: #5e5e5e;
+  color: rgb(34, 34, 34);
   transition: cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 .btnSubmint button[type="submint"]:hover{
@@ -79,12 +87,15 @@ form .column {
   color: #fff;
 }
 
+
+/* Mensaje de detalles del prestamo */
 .mensaje {
-  background-color: #454546;
-  padding: 1% 0;
-  width: 70%;
+  background-color: #ff9800;
+  padding: 0.5% 0;
+  width: 36%;
   margin: 0 auto;
   border-radius: 16px 16px 0 0;
+  border: 2px solid #fff;
   color: #fff;
   text-align: center;
   font-weight: 600;
